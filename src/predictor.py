@@ -125,3 +125,4 @@ class PlantDiseasePredictor:
             "confidence": float(probabilities[best_idx]),
             "top_predictions": top_predictions,
         }
+

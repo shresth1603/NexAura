@@ -58,3 +58,4 @@ def preprocess_image(image_input: Union[str, Path, bytes, Image.Image], target_s
     
     arr = np.array(img, dtype=np.float32) / 255.0
     return np.expand_dims(arr, axis=0)
+
