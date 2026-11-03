@@ -1,0 +1,10 @@
+# Core Inference Requirements
+numpy>=1.22.0
+pillow>=9.0.0
+
+# Choose one of the following runtimes:
+# For full Keras H5 and TFLite support on desktop/servers:
+tensorflow>=2.10.0
+
+# Optional: For lightweight embedded/edge devices (e.g. Raspberry Pi) running only .tflite:
+# tflite-runtime>=2.14.0
